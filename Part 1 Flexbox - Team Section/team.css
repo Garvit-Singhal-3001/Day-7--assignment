@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.team-container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  width: 220px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.title {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 13px;
+  color: #333;
+}
